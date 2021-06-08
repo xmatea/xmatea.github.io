@@ -1,0 +1,15 @@
+#content_wrapper {
+    flex-flow: row;
+}
+
+
+
+@media only screen and (max-width: 800px){
+    #textview {
+        flex-basis: 100%;
+    }
+
+    #ui_img {
+        display: none;
+    }
+}

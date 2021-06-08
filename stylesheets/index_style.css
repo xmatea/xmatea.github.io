@@ -1,0 +1,36 @@
+#front_page {
+    height: 50%;
+    width: 100%;
+    background-image: url('../graphics/bilde.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 4%
+}
+
+button {
+    margin: auto;
+    padding: 1%;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    width: 25%;
+}
+
+.container {
+    flex-basis: 50%;
+}
+
+.large_header {
+    text-align: left;
+    flex-basis: 100%;
+    font-size: 5vw;
+    font-weight: 600;
+    color: white;
+    margin: 3%;
+}
+
+@media only screen and (max-width: 800px){
+    button {
+        font-size: 16px;
+    }
+}

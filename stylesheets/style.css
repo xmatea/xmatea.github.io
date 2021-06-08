@@ -1,0 +1,107 @@
+/* GENERELT STILARK FOR CSS SOM GÅR IGJEN PÅ ALLE SIDENE */
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+#flex_container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+}
+
+#header {
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 15%;
+    display: block;
+}
+
+#nav_menu {
+    display: flex;
+    flex-flow: wrap;
+}
+
+#dropdown {
+    position: absolute;
+    background-color: black;
+    display: none;
+}
+
+.menu_element {
+    display: flex;
+    flex-shrink: 2;
+    padding: 0 1em;
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    align-self: center;
+}
+
+#content_wrapper {
+    background-color: #fcfcfc;
+    width: 100%;
+    margin: auto;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#content_wrapper h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+#tjenesteliste li {
+  font-size: 18px;
+}
+
+#textview {
+  width: 100%;
+}
+
+/* FOOTER STYLING */
+#footer {
+    margin-top: 0%;
+    background-color: #eeeeee;
+    height: 40vh;
+}
+
+#footericon {
+    width: 10%;
+    display: block;
+    margin: 2% auto;
+}
+
+#footertext {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 800px){
+    .menu_element {
+        font-size: 18px;
+        margin: 0%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .menu_element {
+        font-size: 16px;
+        margin: 0%;
+    }
+}
